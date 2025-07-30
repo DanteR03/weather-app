@@ -1,4 +1,5 @@
 import { fetchWeatherData } from "./weatherApiInteraction.js";
+import "./styles.css"
 
 async function logData(location) {
   try {
@@ -21,3 +22,4 @@ logData("Seoul");
 logData("Moscow");
 logData("Bangkok");
 logData("ksdfgjksfdhgksdfjgksdfjg");
+logData("");
